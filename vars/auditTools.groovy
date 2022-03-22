@@ -2,7 +2,7 @@ def call() {
     node {
       sh '''
         git version
-        docker version 
+        sudo docker version 
       '''
     }
 }
